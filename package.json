@@ -30,7 +30,7 @@
   "main": "gulpfile.js",
   "dependencies": {},
   "scripts": {
-    "deploy": "gh-page -d dist"
+    "deploy": "npm run deploy && gh-pages -d dist"
   },
   "keywords": [],
   "license": "ISC",

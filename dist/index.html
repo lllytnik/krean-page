@@ -1,16 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.min.css">
-    <title>gulp project</title>
+    <title>KREAN</title>
 </head>
+
 <body>
-    <p>Hello</p>
+    <header class="header">
+        <div class="header__top">
+            <div class="header__logo logo">
+                <img class="header__img" src="./assets/images/header/logo.png" alt="">
+            </div>
+            <div class="header__nav">
+                <ul>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Works</a></li>
+                    <li><a href="">References</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="header__inner">
+            <h1 class="header__title">Digital Marketing</h1>
+            <h3 class="header__subtitle">Consultancy</h3>
+        </div>
+    </header>
+    <section class="krea">
+        <div class="krea__inner">
+            <h2 class="krea__title">KREA.</h2>
+            <h3 class="krea__subtitle">Services</h3>
+        </div>
 
+        <div class="krea__wrapper">
+            <div class="krea__wrap">
+                <img class="krea__img" src="./assets/images/krea/services-1.png" alt="">
+                <div class="krea__title-wrap"></div>
+                <p class="krea__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget
+                    elementum nisi. Curabitur cursus, dolor ac tempus pulvinar, risus risus elementum eros, vehicula
+                    ultricies quam arcu at augue. Donec lacinia erat nec tincidunt dignissim. Etiam egestas euismod
+                    ipsum, vitae commodo neque lacinia ac
+                </p>
+            </div>
+            <div class="krea__wrap">
+                <img class="krea__img" src="./assets/images/krea/services-2.png" alt="">
+                <div class="krea__title-wrap"></div>
+                <p class="krea__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget
+                    elementum nisi. Curabitur cursus, dolor ac tempus pulvinar, risus risus elementum eros, vehicula
+                    ultricies quam arcu at augue. Donec lacinia erat nec tincidunt dignissim. Etiam egestas euismod
+                    ipsum, vitae commodo neque lacinia ac
+                </p>
+            </div>
+            <div class="krea__wrap">
+                <img class="krea__img" src="./assets/images/krea/services-3.png" alt="">
+                <div class="krea__title-wrap"></div>
+                <p class="krea__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget
+                    elementum nisi. Curabitur cursus, dolor ac tempus pulvinar, risus risus elementum eros, vehicula
+                    ultricies quam arcu at augue. Donec lacinia erat nec tincidunt dignissim. Etiam egestas euismod
+                    ipsum, vitae commodo neque lacinia ac
+                </p>
+            </div>
+        </div>
+        <button class="krea__btn">GET IN TOUCH</button>
+    </section>
+    <section class="works">
+        <h3 class="works__title">Works</h3>
+        <div class="works__grid">
+            <div class="box1">One</div>
+            <div class="box2">Two</div>
+            <div class="box3">Three</div>
+            <div class="box4">Four</div>
+            <div class="box5">Five</div>
+            <div class="box6">Six</div>
+            <div class="box7">Seven</div>
+        </div>
+    </section>
+    <section class="references">
+        <h2 class="references__title">References</h2>
 
-    <script src="assets/js/script.js"></script>
+        <div class="references__wrapper">
+            <div class="references__pic">
+                <img class="references__img" src="" alt="">
+            </div>
+            <div class="references__inner">
+                <div class="references__subtitle">
+                    John Doe
+                </div>
+                <div class="references__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget elementum nisi. Curabitur
+                    cursus, dolor ac tempus pulvinar, risus risus elementum eros, vehicula ultricies quam arcu at augue.
+                    Donec lacinia erat nec tincidunt dignissim. Etiam egestas euismod ipsum, vitae commodo neque lacinia
+                    ac
+                </div>
+            </div>
+        </div>
+
+        <div class="references__gallery gallery">
+            <ul class="gallery__list">
+                <li class="gallery__item">
+                    <img class="gallery__img" src="" alt="">
+                </li>
+                <li class="gallery__item">
+                    <img class="gallery__img" src="" alt="">
+                </li>
+                <li class="gallery__item">
+                    <img class="gallery__img" src="" alt="">
+                </li>
+                <li class="gallery__item">
+                    <img class="gallery__img" src="" alt="">
+                </li>
+                <li class="gallery__item">
+                    <img class="gallery__img" src="" alt="">
+                </li>
+                <li class="gallery__item">
+                    <img class="gallery__img" src="" alt="">
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="contact">
+        <form action="contact__form form">
+            <h2 class="form__title">Contact</h2>
+
+            <div class="form__wrapper">
+                <div class="field" tabindex="1">
+                    <input name="username" type="text" placeholder="Full Name" required>
+                </div>
+
+                <div class="field" tabindex="2">
+                    <input name="email" type="text" placeholder="E-mail" required>
+                </div>
+
+                <div class="field" tabindex="3">
+                    <textarea name="message" placeholder="Message" required></textarea>
+                </div>
+            </div>
+
+            <button class="form__btn" type="reset">SEND</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__logo logo">
+            <img class="header__img" src="./assets/images/header/logo.png" alt="">
+        </div>
+        <div class="footer__adr adr">
+            <p class="adr__text">John Street,
+                Doe Building
+                <span class="adr__span">11/8 EDIRNE/TURKEY</span>
+            </p>
+        </div>
+        <div class="footer__feedback feedback">
+            <div class="feedback__item">
+                <a class="feedback__phone" href="tel:900 800 70 60">900 800 70 60</a>
+            </div>
+
+            <div class="feedback__item">
+                <a class="feedback__email" href="mailto:info@envato.com">info@envato.com</a>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
