@@ -1,0 +1,93 @@
+.krea {
+    $krea: &;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 157px 0 134px 0;
+
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        #{$krea}__title {
+            color: #303030;
+            font-family: 'UniNeueBold';
+            font-size: 6rem;
+            text-transform: uppercase;
+        }
+
+        #{$krea}__subtitle {
+            position: relative;
+            font-family: Ubuntu;
+            font-size: 3rem;
+            font-weight: 500;
+            line-height: 17px;
+            color: #787878;
+
+            &::after {
+                content: '';
+                position: absolute;
+                bottom: -16px;
+                left: 25px;
+                width: 50px;
+                height: 2px;
+                background-color: #4a4a4a;
+            }
+        }
+    }
+
+    &__wrapper {
+        max-width: 1465px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 132px;
+    }
+
+    &__wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        #{$krea}__title-wrap {
+            margin-top: 69px;
+            color: #787878;
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 4.5rem;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: normal;
+            text-align: center;
+        }
+
+        #{$krea}__text {
+            margin-top: 74px;
+            max-width: 442px;
+            color: #5f5f5f;
+            font-family: "Uni Neue Book";
+            font-size: 2.5rem;
+            font-weight: 400;
+            text-align: left;
+        }
+    }
+
+    &__btn {
+        width: 295px;
+        height: 63px;
+        margin-top: 148px;
+        color: white;
+        background-color: #514b98;
+        text-transform: uppercase;
+        font-family: "Uni Neue Heavy";
+        font-size: 2.3rem;
+        font-weight: 400;
+        border-radius: 35px;
+        -webkit-border-radius: 35px;
+        -moz-border-radius: 35px;
+        -ms-border-radius: 35px;
+        -o-border-radius: 35px;
+}
+}

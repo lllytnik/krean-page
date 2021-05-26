@@ -372,7 +372,7 @@ template {
     flex-direction: column;
     -ms-flex-align: center;
     align-items: center;
-    padding-top: 90px;
+    padding: 90px 0 90px 0;
 }
 
 .header__top {
@@ -400,12 +400,13 @@ template {
 .header__list .header__item .header__link {
     text-decoration: none;
     color: white;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 2.5rem;
 }
 
 .header__inner {
     text-align: center;
-    margin-top: 373px;
+    margin-top: 353px;
 }
 
 .header__inner .header__title {
@@ -423,9 +424,12 @@ template {
 }
 
 .header__btn {
+    margin-top: 355px;
+    padding: 0;
     border: none;
-    outline: none;
-    border-color: transparent;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
 }
 
 /* ===COMPONENTS=== */

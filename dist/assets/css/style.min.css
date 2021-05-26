@@ -319,10 +319,13 @@ template {
 @font-face {
   font-family: 'Ubuntu', sans-serif; }
 
+@font-face {
+  font-family: UniNeueBold;
+  src: url(../fonts/UniNeueBold.ttf); }
+
 /* ===HEADER=== */
 .header {
   background: url(../images/header/header-bg.jpg) no-repeat;
-  height: 100vh;
   background-position: center;
   background-size: cover;
   color: white;
@@ -370,6 +373,122 @@ template {
 
 /* ===COMPONENTS=== */
 /* ===SECTION=== */
+.krea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 157px 0 134px 0; }
+  .krea__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .krea__inner .krea__title {
+      color: #303030;
+      font-family: 'UniNeueBold';
+      font-size: 6rem;
+      text-transform: uppercase; }
+    .krea__inner .krea__subtitle {
+      position: relative;
+      font-family: Ubuntu;
+      font-size: 3rem;
+      font-weight: 500;
+      line-height: 17px;
+      color: #787878; }
+      .krea__inner .krea__subtitle::after {
+        content: '';
+        position: absolute;
+        bottom: -16px;
+        left: 25px;
+        width: 50px;
+        height: 2px;
+        background-color: #4a4a4a; }
+  .krea__wrapper {
+    max-width: 1465px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 132px; }
+  .krea__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .krea__wrap .krea__title-wrap {
+      margin-top: 69px;
+      color: #787878;
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 4.5rem;
+      font-weight: 700;
+      font-style: normal;
+      letter-spacing: normal;
+      line-height: normal;
+      text-align: center; }
+    .krea__wrap .krea__text {
+      margin-top: 74px;
+      max-width: 442px;
+      color: #5f5f5f;
+      font-family: "Uni Neue Book";
+      font-size: 2.5rem;
+      font-weight: 400;
+      text-align: left; }
+  .krea__btn {
+    width: 295px;
+    height: 63px;
+    margin-top: 148px;
+    color: white;
+    background-color: #514b98;
+    text-transform: uppercase;
+    font-family: "Uni Neue Heavy";
+    font-size: 2.3rem;
+    font-weight: 400;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px; }
+
+.works {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ebebeb;
+  padding: 70px 0 150px 0; }
+  .works__title {
+    position: relative;
+    font-family: 'UniNeueBold';
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 17px;
+    color: #787878; }
+    .works__title::after {
+      content: '';
+      position: absolute;
+      bottom: -16px;
+      left: 19px;
+      width: 50px;
+      height: 2px;
+      background-color: #4a4a4a; }
+  .works__grid {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 65px 65px;
+    grid-template-areas: "box1 box2 box3" "box4 box5 box3" "box6 box5 box7"; }
+  .works__box1 {
+    grid-area: box1; }
+  .works__box2 {
+    grid-area: box2; }
+  .works__box3 {
+    grid-area: box3; }
+  .works__box4 {
+    grid-area: box4; }
+  .works__box5 {
+    grid-area: box5; }
+  .works__box6 {
+    grid-area: box6; }
+  .works__box7 {
+    grid-area: box7; }
+
 /* ===FOOTER=== */
 /* ===MEDIA=== */
 
