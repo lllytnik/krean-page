@@ -1,0 +1,11 @@
+.adr {
+    $adr: &;
+    
+    max-width: 167px;
+
+    &__span{
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 1.7rem;
+        color: #fff;
+    }
+}

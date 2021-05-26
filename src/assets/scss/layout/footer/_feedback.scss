@@ -1,0 +1,50 @@
+.feedback {
+    $feedback: &;
+
+    max-width: 167px;
+
+    &__item {
+        margin-top: 14px;
+
+        &:first-child {
+            margin-top: 0;
+        }
+
+        #{$feedback}__phone {
+            position: relative;
+            text-decoration: none;
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 1.7rem;
+            color: #fff;
+
+            &::after {
+                content: '';
+                top: 0px;
+                left: -33px;
+                position: absolute;
+                width: 22px;
+                height: 22px;
+                background-image: url(../images/footer/footer-phone-icon.png);
+            }
+        }
+
+        #{$feedback}__email {
+            position: relative;
+            text-decoration: none;
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 1.7rem;
+            color: #fff;
+
+            &::after {
+                content: '';
+                top: 0px;
+                left: -35px;
+                position: absolute;
+                width: 28px;
+                height: 20px;
+                background-image: url(../images/footer/footer-mail-icon.png);
+            }
+        }
+    }
+
+}

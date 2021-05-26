@@ -90,12 +90,12 @@
 
         <div class="references__wrapper">
             <div class="references__pic">
-                <img class="references__img" src="" alt="">
+                <img class="references__img" src="./assets/images/references/references-img.jpg" alt="">
             </div>
             <div class="references__inner">
-                <div class="references__subtitle">
+                <h3 class="references__subtitle">
                     John Doe
-                </div>
+                </h3>
                 <div class="references__text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget elementum nisi. Curabitur
                     cursus, dolor ac tempus pulvinar, risus risus elementum eros, vehicula ultricies quam arcu at augue.
@@ -108,41 +108,43 @@
         <div class="references__gallery gallery">
             <ul class="gallery__list">
                 <li class="gallery__item">
-                    <img class="gallery__img" src="" alt="">
+                    <img class="gallery__img" src="./assets/images/references/references-icon-1.jpg" alt="">
                 </li>
                 <li class="gallery__item">
-                    <img class="gallery__img" src="" alt="">
+                    <img class="gallery__img" src="./assets/images/references/references-icon-2.jpg" alt="">
                 </li>
                 <li class="gallery__item">
-                    <img class="gallery__img" src="" alt="">
+                    <img class="gallery__img" src="./assets/images/references/references-icon-3.jpg" alt="">
                 </li>
                 <li class="gallery__item">
-                    <img class="gallery__img" src="" alt="">
+                    <img class="gallery__img" src="./assets/images/references/references-icon-4.jpg" alt="">
                 </li>
                 <li class="gallery__item">
-                    <img class="gallery__img" src="" alt="">
+                    <img class="gallery__img" src="./assets/images/references/references-icon-5.jpg" alt="">
                 </li>
                 <li class="gallery__item">
-                    <img class="gallery__img" src="" alt="">
+                    <img class="gallery__img" src="./assets/images/references/references-icon-6.jpg" alt="">
                 </li>
             </ul>
         </div>
     </section>
     <section class="contact">
-        <form action="contact__form form">
+        <form class="contact__form form" action="">
             <h2 class="form__title">Contact</h2>
 
             <div class="form__wrapper">
-                <div class="field" tabindex="1">
-                    <input name="username" type="text" placeholder="Full Name" required>
+                <div class="form__top">
+                    <div class="form__field" tabindex="1">
+                        <input class="form__input" name="username" type="text" placeholder="Full Name" required>
+                    </div>
+
+                    <div class="form__field" tabindex="2">
+                        <input class="form__input" name="email" type="text" placeholder="E-mail" required>
+                    </div>
                 </div>
 
-                <div class="field" tabindex="2">
-                    <input name="email" type="text" placeholder="E-mail" required>
-                </div>
-
-                <div class="field" tabindex="3">
-                    <textarea name="message" placeholder="Message" required></textarea>
+                <div class="form__field-text" tabindex="3">
+                    <textarea class="form__textarea" name="message" placeholder="Message" required></textarea>
                 </div>
             </div>
 
@@ -151,24 +153,58 @@
     </section>
 
     <footer class="footer">
-        <div class="footer__logo logo">
-            <img class="header__img" src="./assets/images/header/logo.png" alt="">
-        </div>
-        <div class="footer__adr adr">
-            <p class="adr__text">John Street,
-                Doe Building
+        <div class="footer__wrapper">
+            <div class="footer__logo logo">
+                <img class="header__img" src="./assets/images/header/logo.png" alt="">
+            </div>
+            <div class="footer__adr adr">
+                <span class="adr__span">John Street,<br> Doe Building <br></span>
                 <span class="adr__span">11/8 EDIRNE/TURKEY</span>
-            </p>
-        </div>
-        <div class="footer__feedback feedback">
-            <div class="feedback__item">
-                <a class="feedback__phone" href="tel:900 800 70 60">900 800 70 60</a>
+
+            </div>
+            <div class="footer__feedback feedback">
+                <div class="feedback__item">
+                    <a class="feedback__email" href="mailto:info@envato.com">info@envato.com</a>
+                </div>
+
+                <div class="feedback__item">
+                    <a class="feedback__phone" href="tel:900 800 70 60">900 800 70 60</a>
+                </div>
             </div>
 
-            <div class="feedback__item">
-                <a class="feedback__email" href="mailto:info@envato.com">info@envato.com</a>
+            <div class="footer__social social">
+                <ul class="social__list">
+                    <li class="social__item">
+                        <a class="social__link" href="#">
+                            <img class="social__img" src="./assets/images/footer/facebook-icon.png" alt="">
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a class="social__link" href="#">
+                            <img class="social__img" src="./assets/images/footer/twitter-icon.png" alt="">
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a class="social__link" href="#">
+                            <img class="social__img" src="./assets/images/footer/linkedin-icon.png" alt="">
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a class="social__link" href="#">
+                            <img class="social__img" src="./assets/images/footer/plus-icon.png" alt="">
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a class="social__link" href="#">
+                            <img class="social__img" src="./assets/images/footer/" alt="">
+                        </a>
+                    </li>
+                </ul>
+                <span class="social__span">All rights reserved.</span>
             </div>
+
         </div>
+
     </footer>
 </body>
 
