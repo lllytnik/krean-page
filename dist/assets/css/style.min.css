@@ -456,10 +456,8 @@ template {
       text-transform: uppercase; }
     .krea__inner .krea__subtitle {
       position: relative;
-      font-family: Ubuntu;
+      font-family: 'Ubuntu', sans-serif;
       font-size: 3rem;
-      font-weight: 500;
-      line-height: 17px;
       color: #787878; }
       .krea__inner .krea__subtitle::after {
         content: '';
@@ -483,30 +481,25 @@ template {
       margin-top: 69px;
       color: #787878;
       font-family: 'Ubuntu', sans-serif;
-      font-size: 4.5rem;
-      font-weight: 700;
-      font-style: normal;
-      letter-spacing: normal;
-      line-height: normal;
-      text-align: center; }
+      font-size: 4.5rem; }
     .krea__wrap .krea__text {
       margin-top: 74px;
       max-width: 442px;
       color: #5f5f5f;
-      font-family: "Uni Neue Book";
-      font-size: 2.5rem;
-      font-weight: 400;
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 2.4rem;
       text-align: left; }
   .krea__btn {
     width: 295px;
     height: 63px;
     margin-top: 148px;
-    color: white;
-    background-color: #514b98;
+    cursor: pointer;
     text-transform: uppercase;
-    font-family: "Uni Neue Heavy";
+    font-family: 'Ubuntu', sans-serif;
     font-size: 2.3rem;
-    font-weight: 400;
+    color: white;
+    background-color: #343434;
+    background-image: linear-gradient(to right, rgba(47, 61, 252, 0.35) 0%, rgba(100, 17, 135, 0.35) 73%, rgba(100, 17, 135, 0.35) 100%);
     border-radius: 35px;
     -webkit-border-radius: 35px;
     -moz-border-radius: 35px;
@@ -541,6 +534,8 @@ template {
     grid-template-rows: 1fr 1fr 1fr;
     gap: 65px 65px;
     grid-template-areas: "box1 box2 box3" "box4 box5 box3" "box6 box5 box7"; }
+  .works__img {
+    width: 100%; }
   .works__box1 {
     grid-area: box1; }
   .works__box2 {
@@ -669,6 +664,7 @@ template {
   .social__list {
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
     margin-bottom: 12px; }
     .social__list .social__item {
       list-style-type: none; }

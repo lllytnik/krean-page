@@ -38,6 +38,9 @@
             "box4 box5 box3"
             "box6 box5 box7";
     }
+    &__img{
+        width: 100%;
+    }
 
     &__box1 {
         grid-area: box1;
